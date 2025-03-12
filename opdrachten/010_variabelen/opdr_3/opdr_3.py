@@ -4,5 +4,13 @@
 
 # Hier komt je code...
 
-my_dict = {"willem": "van der broek", "23": 8, "blauw": "groen"}
+# Maak een dictionary met de opgegeven gegevens
+my_dict = {
+    "naam": "willem",
+    "achternaam": "van der broek",
+    "leeftijd": 23,
+    "favoriete kleur": "blauw"
+}
+
+# Print de dictionary
 print(my_dict)
