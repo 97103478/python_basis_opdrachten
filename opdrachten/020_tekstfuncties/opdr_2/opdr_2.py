@@ -1,9 +1,8 @@
 # Opdracht 1
-# Naam student:
-# Groep:
+# Naam student: Silas Brinkman
+# Groep: I2B
 
 # Hier komt je code...
 
-my_list = ...
-
-print()
+s = "Tinus gaat op zijn tandem naar de hottentottententoonstelling"
+print(s.lower().count('t'))
