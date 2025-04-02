@@ -1,7 +1,13 @@
 # Opdracht 1 input function
-# Naam student:
-# Groep:
+# Naam student: Silas Brinkman
+# Groep: IT2B
 
-# Hier komt je code, maak gebruik van de input functie om de lengte van de rechthoekzijden van de driehoek op te vragen.
+import math
 
+a = float(input("Geef de lengte van de eerste zijde\n"))
 
+b = float(input("Geef de lengte van de tweede zijde\n"))
+
+c = math.sqrt(42 + 32)
+
+print("\nDe lengte van de schuine zijde is:", int(c) if c.is_integer() else c)
