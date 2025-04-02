@@ -1,9 +1,13 @@
 # Opdracht 3 input functie
-# Naam student:
-# Groep:
+# Naam student: Silas Brinkman
+# Groep: IT2B
 
 # Hier komt je code...
 
-# Hier start de for-loop
+getallen = []
 
-my_list = []
+for i in range(3, 82, 3):
+    resultaat = (i ** 2) / 3 
+    getallen.append(resultaat)
+
+print(getallen)
